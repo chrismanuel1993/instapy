@@ -24,7 +24,7 @@ comments = [
 # set headless_browser=True to run InstaPy in the background
 session = InstaPy(username = insta_username,
                   password = insta_password,
-                  headless_browser =False)
+                  headless_browser =True)
 
 with smart_run(session):
   """ Activity flow """		
